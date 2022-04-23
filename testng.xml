@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+    <suite name="All Test Suite">
+<!--        <test name="GroupOne">-->
+<!--            <classes>-->
+<!--                <class name="one.Demo"/>-->
+<!--                <class name="one.DemoOne"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+<!--    <test name="GroupTwo">-->
+<!--        <classes>-->
+<!--            <class name="one.DemoTwo"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="ApiTest">
+        <classes>
+            <class name="apitest.TestApiExamples"/>
+        </classes>
+    </test>
+    </suite>

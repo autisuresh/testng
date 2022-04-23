@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="data.driven.test.DataDriven" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-23T10:27:32" hostname="DESKTOP-V241QNB" time="1.293">
+  <properties/>
+  <testcase name="testData" classname="data.driven.test.DataDriven" time="1.293"/>
+  <system-out><![CDATA[Purchase
+dd
+ee
+ff
+asd
+dfh
+ryry
+cvn
+]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+</testsuite>
