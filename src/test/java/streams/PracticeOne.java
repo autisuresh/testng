@@ -1,6 +1,9 @@
 package streams;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
+import sample.log4j.test.LoggerTest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,6 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class PracticeOne {
+    public static Logger log = LogManager.getLogger(LoggerTest.class.getName());
 
     @Test
     public void countNames() {
@@ -36,6 +40,7 @@ public class PracticeOne {
         // print names in capital which has length > 4
         Stream<String> list1 = Stream.of("Shaurya","Suresh","Nirmala","Veera","Teja","Samu");
         list1.filter(s -> s.length()>4).map(String::toUpperCase).forEach(System.out::println);
+        log.error("error");
     }
 
     @Test
@@ -52,6 +57,7 @@ public class PracticeOne {
         Stream<String> list3 = Stream.of("Pune","Mumbai","Nagar","Nashik");
         Stream<String> newlist = Stream.concat(list2,list3);
         newlist.sorted().forEach(System.out::println);
+        log.error("error");
     }
 
     @Test
