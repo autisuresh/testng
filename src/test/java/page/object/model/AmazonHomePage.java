@@ -1,4 +1,4 @@
 package page.object.model;
 
-public class HomePage {
+public class AmazonHomePage {
 }
